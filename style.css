@@ -224,5 +224,63 @@
     border-bottom: 1px solid black;
     box-sizing: border-box;
 }
-
 /* Sezione domande */
+
+/* Footer */
+.container-footer {
+    width: 100%;
+    height: 430px;
+    background-color: #000;
+}
+
+.section-footer {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+.box-1 {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-top: 60px;
+    margin-right: 100px;
+    padding: 0px 20px;
+}
+
+.box {
+    height: 200px;
+    width: 15%;
+    float: left;
+    margin-top: 60px;
+    margin-right: 35px;
+}
+
+.title-list{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 40px;
+    width: 50px;
+}
+
+
+.list, .list-1 {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.lingua {
+    width: 80px;
+    margin-top: 30%;
+    padding-top: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+    color: #fff;
+}
+/* Footer */
