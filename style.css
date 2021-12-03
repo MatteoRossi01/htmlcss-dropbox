@@ -9,6 +9,10 @@ html {
     font-family: sans-serif, Arial, Helvetica;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 h4 {
     font-size: 22px;
 }
@@ -47,6 +51,19 @@ h5 {
     margin-left: 12px;
 }
 
+.margin-top {
+    margin-top: 80px;
+}
+
+.btn-white {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
 .btn-blue {
     box-sizing: border-box;
     border: 0px solid;
@@ -68,6 +85,10 @@ h5 {
 }
 
 .btn-blue:hover {
+    background-color: #A5CDFD;
+}
+
+.btn-white:hover {
     background-color: #A5CDFD;
 }
 
@@ -267,14 +288,18 @@ h5 {
 .acquista-ora {
     color: #2165F6;
 }
-
 /* Sezione tariffe */
 
 /* Sezione contatti */
 .container-contatti {
     width: 100%;
     height: 550px;
-    background-color: yellowgreen;
+}
+
+.section-contatti {
+    margin: auto;
+    width: 70%;
+    height: 100%;
 }
 
 .img-contatti {
@@ -286,13 +311,21 @@ h5 {
     background-size: cover;
 }
 
-.text-contatti {
+.box-contatti {
     float: right;
     margin-top: 80px;
     width: 40%;
     height: 300px;
-    box-sizing: border-box;
-    border: 1px solid black;
+}
+
+.text-contatti {
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.btn-contatti {
+    margin-top: 25px;
 }
 /* Sezione contatti */
 
@@ -301,6 +334,12 @@ h5 {
     width: 100%;
     height: 1000px;
     background-color: #fff;
+}
+
+.section-info {
+    margin: auto;
+    width: 70%;
+    height: 100%;
 }
 
 .title-info {
@@ -321,6 +360,7 @@ h5 {
 .text-info {
     display: block;
     margin-top: 10px;
+    line-height: 25px;
 }
 
 .img-info {
@@ -426,8 +466,8 @@ h5 {
     margin: auto;
     width: 80%;
     height: 100%;
+    border-top: 1px solid black;
     box-sizing: border-box;
-    border: 1px solid #fff;
 }
 
 .box-1 {
