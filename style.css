@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+
+html {
+    font-family: sans-serif, Arial, Helvetica;
 }
 
 .section {
@@ -14,20 +19,69 @@
 
 .left {
     float: left;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 
 .right {
     float: right;
 }
 
+.btn-blue {
+    box-sizing: border-box;
+    border: 0px solid;
+    background-color: #0061FF;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-blue:hover {
+    background-color: #A5CDFD;
+}
+
 /* Header */
 .container {
     width: 100%;
-    height: 80px;
-    background-color: blue;
+    height: 59px;
+    background-color: #fff;
     position: fixed;
     z-index: 2;
+}
+
+.container .logo {
+    float: left;
+    margin-top: 15px;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.container .menu li {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.container .menu .menu-link {
+    text-decoration: none;
+    padding-right: 15px;
+    padding: 20px;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    border-bottom: 2px solid #2165F6;
+}
+
+.container .menu .link-inizia {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-left: 15px;
 }
 
 /* Header */
@@ -35,16 +89,51 @@
 /* Jumbotron */
 .jumbotron {
     width: 100%;
-    height: 600px;
-    background-color: brown;
+    height: 780px;
+    background-color: #B4D0E7;
 }
 
 .section-jumbotron {
     margin: auto;
-    width: 80%;
-    height: 600px;
-    box-sizing: border-box;
-    border: 1px solid black;
+    width: 85%;
+    height: 780px;
+}
+
+.title-jumbotron {
+    padding-top: 150px;
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.text-jumbotron {
+    display: block;
+    width: 33%;
+    margin-top: 50px;
+    line-height: 20px;
+}
+
+.btn-jumbotron {
+    display: block;
+    margin-top: 40px;
+}
+
+.img-jumbotron {
+    width: 84%;
+    height: 80%;
+    float: right;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+#annulla {
+    display: block;
+    margin-top: 20px;
+}
+
+.fas {
+    margin-top: 40px;
+    font-size: 40px;
 }
 
 /* Jumbotron */
@@ -68,8 +157,7 @@
     height: 500px;
     box-sizing: border-box;
     border: 1px solid black;
-    margin-top: 50px;
-    
+    margin-top: px;
 }
 
 .box-tariffe-bottom {
