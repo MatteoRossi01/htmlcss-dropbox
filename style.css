@@ -9,6 +9,23 @@ html {
     font-family: sans-serif, Arial, Helvetica;
 }
 
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.font-13 {
+    display: block;
+    font-size: 13px;
+}
+
+.line-height {
+    line-height: 50px;
+}
+
 .section {
     margin: auto;
     width: 70%;
@@ -19,11 +36,15 @@ html {
 
 .left {
     float: left;
-    margin-right: 4%;
+    margin-right: 5%;
 }
 
 .right {
     float: right;
+}
+
+.margin-left {
+    margin-left: 12px;
 }
 
 .btn-blue {
@@ -36,8 +57,26 @@ html {
     font-size: 14px;
 }
 
+.btn-large {
+    box-sizing: border-box;
+    border: 0px solid;
+    background-color: #0061FF;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
 .btn-blue:hover {
     background-color: #A5CDFD;
+}
+
+.btn-large:hover {
+    background-color: #A5CDFD;
+}
+
+.fa-check {
+    color: #0061FF;
 }
 
 /* Header */
@@ -102,14 +141,13 @@ html {
 .title-jumbotron {
     padding-top: 150px;
     font-size: 45px;
-    line-height: 80px;
 }
 
 .text-jumbotron {
     display: block;
     width: 33%;
     margin-top: 50px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .btn-jumbotron {
@@ -118,12 +156,13 @@ html {
 }
 
 .img-jumbotron {
-    width: 84%;
-    height: 80%;
+    width: 73%;
+    height: 500px;
     float: right;
     position: relative;
-    bottom: 100px;
-    left: 20px;
+    bottom: 220px;
+    left: 55px;
+    z-index: 1;
 }
 
 #annulla {
@@ -131,7 +170,7 @@ html {
     margin-top: 20px;
 }
 
-.fas {
+.fa-arrow-down {
     margin-top: 40px;
     font-size: 40px;
 }
@@ -141,32 +180,94 @@ html {
 /* Sezione tariffe */
 .container-tariffe {
     width: 100%;
-    height: 1000px;
-    background-color: rgb(36, 129, 78);
+    height: 1600px;
+    background-color: #fff;
+    position: relative;
 }
 
-.title-tariffe {
-    height: 100px;
-    margin-top: 100px;
-    box-sizing: border-box;
-    border: 1px solid black;
+.section-tariffe {
+    width: 70%;
+    height: 1100px;
+    position: absolute;
+    top: 200px;
+    left: 15%;
+}
+
+.title-box {
+    width: 100%;
+    font-size: 22px;
+}
+
+.options {
+    width: 35%;
+    margin-top: 80px;
 }
 
 .box-tariffe {
+    display: block;
+    margin-top: 40px;
+    height: 80%;
     width: 30%;
-    height: 500px;
     box-sizing: border-box;
-    border: 1px solid black;
-    margin-top: px;
+    border: 1px solid #D0D0D3;
 }
 
-.box-tariffe-bottom {
+.box-enterprise {
+    margin-top: 970px;
+    height: 20%;
     width: 100%;
-    height: 15%;
-    margin-top: 600px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid #D0D0D3;
 }
+
+.options-piano {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D0D0D3;
+}
+
+.tipo-tariffa {
+    margin: auto;
+    width: 85%;
+    margin-top: 40px;
+}
+
+.tariffa-enterprise {
+    margin-left: 25px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.btn-enterprise {
+    margin-right: 50px;
+}
+
+.prezzo {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tempistiche {
+    font-size: 14px;
+    color: #D0D0D3;
+}
+
+.hr {
+    box-sizing: border-box;
+    border-bottom: 1px solid #D0D0D3;
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 20%;
+}
+
+.acquista-ora {
+    color: #2165F6;
+}
+
 /* Sezione tariffe */
 
 /* Sezione contatti */
