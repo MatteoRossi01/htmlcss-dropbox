@@ -30,14 +30,6 @@ h5 {
     line-height: 50px;
 }
 
-.section {
-    margin: auto;
-    width: 70%;
-    height: 100%;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
 .left {
     float: left;
     margin-right: 5%;
@@ -220,7 +212,7 @@ h5 {
 }
 
 .options {
-    width: 35%;
+    width: 40%;
     margin-top: 80px;
 }
 
@@ -288,6 +280,22 @@ h5 {
 .acquista-ora {
     color: #2165F6;
 }
+
+.checkbox {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.blue {
+    border: 4px solid #2165F6;
+}
+
+.gray {
+    border: 1px solid #DCDCDE;
+}
 /* Sezione tariffe */
 
 /* Sezione contatti */
@@ -308,7 +316,8 @@ h5 {
     width: 55%;
     margin-top: 50px;
     background-image: url(img/partner.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .box-contatti {
@@ -485,7 +494,7 @@ h5 {
 .link-prova{
     float: left;
     margin-left: 20%;
-    margin-top: 100px;
+    margin-top: 110px;
     text-decoration: none;
     color: #000;
 }
@@ -527,24 +536,37 @@ h5 {
 /* Sezione domande */
 .container-domande {
     width: 100%;
-    height: 600px;
-    background-color: burlywood;
+    
+}
+
+.section-domande {
+    width: 70%;
+    margin: auto;
 }
 
 .title-domande {
     margin-top: 120px;
     margin-bottom: 5%;
+    font-size: 25px;
 }
 
 .domande {
     padding: 30px 0px;
-    border-top: 1px solid black;
+    border-top: 1px solid #DCDCDE;
     box-sizing: border-box;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .last {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #DCDCDE;
     box-sizing: border-box;
+}
+
+.link-2 {
+    margin-right: 25px;
+    float: right;
+    color: #000;
 }
 /* Sezione domande */
 
@@ -553,14 +575,15 @@ h5 {
     width: 100%;
     height: 430px;
     background-color: #000;
+    margin-top: 100px;
 }
 
 .section-footer {
     margin: auto;
     width: 80%;
     height: 100%;
-    border-top: 1px solid black;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .box-1 {
@@ -588,7 +611,6 @@ h5 {
     width: 50px;
 }
 
-
 .list, .list-1 {
     display: block;
     margin-top: 10px;
@@ -598,11 +620,16 @@ h5 {
 }
 
 .lingua {
-    width: 80px;
-    margin-top: 30%;
+    width: 85px;
+    color: #fff;
+    margin-top: 350px;
     padding-top: 40px;
     box-sizing: border-box;
-    border-top: 1px solid #fff;
-    color: #fff;
+    border-top: 1px solid #DCDCDE;
+}
+
+.fa-sort-up {
+    float: right;
+    margin-top: 5px;
 }
 /* Footer */
