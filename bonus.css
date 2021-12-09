@@ -1,3 +1,4 @@
+/* Dropdown menu */
 .dropbtn {
     color: white;
     padding: 16px;
@@ -35,3 +36,19 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* Dropdown menu */
+
+/* Dropdown domande */
+.dropdown-domande {
+    display: block;
+    display: none;
+    margin-top: 20px;
+    width: 70%;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.dropdown-faq:hover .dropdown-domande {
+    display: inline-block;
+}
+/* Dropdown domande */
